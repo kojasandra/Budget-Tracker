@@ -1,0 +1,101 @@
+type,amount,date,description,category
+expense,12.50,2026-10-01,Valid 01,Eating out
+income,300.00,2026-10-01,Valid 02,Other
+expense,15.00,2026-10-02,Valid 03,Eating out
+income,200.00,2026-10-02,Valid 04,Other
+expense,8.75,2026-10-03,Valid 05,Eating out
+income,150.00,2026-10-03,Valid 06,Other
+expense,22.50,2026-10-04,Valid 07,Eating out
+income,450.00,2026-10-04,Valid 08,Other
+expense,6.00,2026-10-05,Valid 09,Eating out
+income,120.00,2026-10-05,Valid 10,Other
+expense,18.25,2026-10-06,Valid 11,Eating out
+income,500.00,2026-10-06,Valid 12,Other
+expense,30.00,2026-10-07,Valid 13,Eating out
+income,250.00,2026-10-07,Valid 14,Other
+expense,9.99,2026-10-08,Valid 15,Eating out
+income,600.00,2026-10-08,Valid 16,Other
+expense,14.50,2026-10-09,Valid 17,Eating out
+income,350.00,2026-10-09,Valid 18,Other
+expense,25.75,2026-10-10,Valid 19,Eating out
+income,180.00,2026-10-10,Valid 20,Other
+expense,11.00,2026-10-11,Valid 21,EATING OUT
+income,750.00,2026-10-11,Valid 22,OTHER
+expense,17.50,2026-10-12,Valid 23,eating out
+income,420.00,2026-10-12,Valid 24,other
+expense,40.00,2026-10-13,Valid 25,Eating out
+income,900.00,2026-10-13,Valid 26,Other
+expense,5.25,2026-10-14,Valid 27,Eating out
+income,1000.00,2026-10-14,Valid 28,Other
+expense,21.00,2026-10-15,Valid 29,Eating out
+income,80.00,2026-10-15,Valid 30,Other
+expense,13.75,2026-10-16,Valid 31,Eating out
+income,95.50,2026-10-16,Valid 32,Other
+expense,28.00,2026-10-17,Valid 33,Eating out
+income,110.00,2026-10-17,Valid 34,Other
+expense,7.50,2026-10-18,Valid 35,Eating out
+income,230.00,2026-10-18,Valid 36,Other
+expense,19.99,2026-10-19,Valid 37,Eating out
+income,640.00,2026-10-19,Valid 38,Other
+expense,35.00,2026-10-20,Valid 39,Eating out
+income,720.00,2026-10-20,Valid 40,Other
+expense,0.01,2026-10-21,Valid 41,Eating out
+income,1000000.00,2026-10-21,Valid 42,Other
+expense,16.50,2026-10-22,,Eating out
+income,55.00,2026-10-22,,Other
+expense,23.00,2026-10-23,"Valid 45, lunch and coffee",Eating out
+income,130.00,2026-10-23,Valid 46,Other
+expense,10,2026-10-24,Valid 47,Eating out
+income,250,2026-10-24,Valid 48,Other
+expense,32.25,2026-10-31,Valid 49,Eating out
+income,850.00,2026-10-31,Valid 50,Other
+transfer,12.50,2026-10-08,Invalid 01 type,Other
+payment,12.50,2026-10-08,Invalid 02 type,Other
+refund,12.50,2026-10-08,Invalid 03 type,Other
+EXPENSE,12.50,2026-10-08,Invalid 04 type,Other
+INCOME,12.50,2026-10-08,Invalid 05 type,Other
+Income,12.50,2026-10-08,Invalid 06 type,Other
+Expense,12.50,2026-10-08,Invalid 07 type,Other
+other,12.50,2026-10-08,Invalid 08 type,Other
+123,12.50,2026-10-08,Invalid 09 type,Other
+unknown,12.50,2026-10-08,Invalid 10 type,Other
+expense,0,2026-10-08,Invalid 11 zero,Other
+expense,-1,2026-10-08,Invalid 12 negative,Other
+expense,1000000.01,2026-10-08,Invalid 13 over maximum,Other
+expense,12.345,2026-10-08,Invalid 14 decimals,Other
+expense,abc,2026-10-08,Invalid 15 not a number,Other
+expense,,2026-10-08,Invalid 16 missing amount,Other
+income,-300,2026-10-08,Invalid 17 negative,Other
+income,2000000,2026-10-08,Invalid 18 over maximum,Other
+expense,0.001,2026-10-08,Invalid 19 decimals,Other
+expense,12.5.0,2026-10-08,Invalid 20 not a number,Other
+expense,12.50,2026-09-31,Invalid 21 date,Other
+expense,12.50,2026-02-29,Invalid 22 date,Other
+expense,12.50,2026-04-31,Invalid 23 date,Other
+expense,12.50,2026-06-31,Invalid 24 date,Other
+expense,12.50,2026-11-31,Invalid 25 date,Other
+expense,12.50,2026-13-01,Invalid 26 date,Other
+expense,12.50,2026-00-01,Invalid 27 date,Other
+expense,12.50,2026-10-00,Invalid 28 date,Other
+expense,12.50,not-a-date,Invalid 29 date,Other
+expense,12.50,,Invalid 30 missing date,Other
+expense,12.50,2026-10-08,Invalid 31 missing category,
+expense,12.50,2026-10-08,Invalid 32 missing category,
+expense,12.50,2026-10-08,Invalid 33 missing category,
+expense,12.50,2026-10-08,Invalid 34 missing category,
+expense,12.50,2026-10-08,Invalid 35 missing category,
+income,300.00,2026-10-09,Invalid 36 missing category,
+income,300.00,2026-10-09,Invalid 37 missing category,
+income,300.00,2026-10-09,Invalid 38 missing category,
+income,300.00,2026-10-09,Invalid 39 missing category,
+income,300.00,2026-10-09,Invalid 40 missing category,
+,12.50,2026-10-08,Invalid 41 missing type,Other
+,12.50,2026-10-08,Invalid 42 missing type,Other
+,12.50,2026-10-08,Invalid 43 missing type,Other
+,12.50,2026-10-08,Invalid 44 missing type,Other
+,12.50,2026-10-08,Invalid 45 missing type,Other
+,300.00,2026-10-09,Invalid 46 missing type,Other
+,300.00,2026-10-09,Invalid 47 missing type,Other
+,300.00,2026-10-09,Invalid 48 missing type,Other
+,300.00,2026-10-09,Invalid 49 missing type,Other
+,300.00,2026-10-09,Invalid 50 missing type,Other
